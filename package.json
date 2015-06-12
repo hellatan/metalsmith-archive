@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-archive",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "creates an archive of posts",
   "main": "lib/index.js",
   "scripts": {
@@ -8,12 +8,14 @@
   },
   "author": "dale tan <dale@1stdibs.com> (https://1stdibs.com)",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "lodash.isarray": "^3.0.3",
     "lodash.isempty": "^3.0.4",
     "lodash.remove": "^3.1.0",
-    "metalsmith": "^1.7.0",
-    "mocha": "^2.2.5",
     "moment": "^2.10.3"
+  },
+  "devDependencies": {
+    "metalsmith": "^1.7.0",
+    "mocha": "^2.2.5"
   }
 }
